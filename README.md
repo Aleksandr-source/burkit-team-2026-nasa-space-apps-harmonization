@@ -202,7 +202,7 @@ No burned-area estimate, operational early warning, causal attribution or harmon
 
 ## Built with
 
-**React 19 · TypeScript · Vite · MapLibre GL JS · Apache ECharts · Tailwind CSS · Express**
+**TypeScript, Python, СSS, JavaScript, HTML**
 
 ```text
 src/
