@@ -1,0 +1,10 @@
+{
+  "independentMetricsCheck": "PASS",
+  "rawSha256Check": "PASS",
+  "rawFilesChecked": 148,
+  "pairedRows": 1465,
+  "trainRows": 1020,
+  "holdoutRows": 445,
+  "scale": 0.184935904346684,
+  "scientificValidation": false
+}

@@ -1,0 +1,120 @@
+{
+  "protocolSha256": "a44468e098ddca7dfb7c05d2a5dac09d908ce0b95eb65d07e6c062132fe6487d",
+  "frozenAt": "2026-11-14T09:19:28.116Z",
+  "trainingYear": 2024,
+  "testYear": 2025,
+  "integrity": {
+    "year": 2024,
+    "rawRows": 137240,
+    "outsideCountry": 94391,
+    "rejected": 0,
+    "insideCountry": 42849,
+    "cohortExclusions": {
+      "duplicates": 0,
+      "nonVegetationOrUnknown": 15304,
+      "lowConfidence": 1876
+    },
+    "qaType0Rows": 25669,
+    "nonTargetSatelliteOrMissingTimeDayNight": 2488,
+    "eligibleRows": 23181,
+    "manifestSha256": "ff6df932dd9f074615ea37c16c7311d26bf6299820b865684fc1eb075583bb60"
+  },
+  "fits": [
+    {
+      "rules": {
+        "radiusKm": 2,
+        "maxMinutes": 60
+      },
+      "model": {
+        "scale": 0.43135709454662485,
+        "trainingMean": 50.18306324110675,
+        "trainingGroups": 1518
+      },
+      "summary": {
+        "aquaRecords": 3231,
+        "viirsRecords": 19950,
+        "matchedAqua": 1518,
+        "matchedViirs": 4520,
+        "unmatchedAqua": 1713,
+        "unmatchedViirs": 15430
+      }
+    },
+    {
+      "rules": {
+        "radiusKm": 2,
+        "maxMinutes": 30
+      },
+      "model": {
+        "scale": 0.38271081871606694,
+        "trainingMean": 46.46332992849847,
+        "trainingGroups": 979
+      },
+      "summary": {
+        "aquaRecords": 3231,
+        "viirsRecords": 19950,
+        "matchedAqua": 979,
+        "matchedViirs": 2662,
+        "unmatchedAqua": 2252,
+        "unmatchedViirs": 17288
+      }
+    },
+    {
+      "rules": {
+        "radiusKm": 2,
+        "maxMinutes": 90
+      },
+      "model": {
+        "scale": 0.46789357783432056,
+        "trainingMean": 54.16830030030033,
+        "trainingGroups": 1665
+      },
+      "summary": {
+        "aquaRecords": 3231,
+        "viirsRecords": 19950,
+        "matchedAqua": 1665,
+        "matchedViirs": 5307,
+        "unmatchedAqua": 1566,
+        "unmatchedViirs": 14643
+      }
+    },
+    {
+      "rules": {
+        "radiusKm": 1,
+        "maxMinutes": 60
+      },
+      "model": {
+        "scale": 0.327629318355277,
+        "trainingMean": 41.469283667621816,
+        "trainingGroups": 1396
+      },
+      "summary": {
+        "aquaRecords": 3231,
+        "viirsRecords": 19950,
+        "matchedAqua": 1396,
+        "matchedViirs": 3441,
+        "unmatchedAqua": 1835,
+        "unmatchedViirs": 16509
+      }
+    },
+    {
+      "rules": {
+        "radiusKm": 3,
+        "maxMinutes": 60
+      },
+      "model": {
+        "scale": 0.45839039968541867,
+        "trainingMean": 52.01678893178894,
+        "trainingGroups": 1554
+      },
+      "summary": {
+        "aquaRecords": 3231,
+        "viirsRecords": 19950,
+        "matchedAqua": 1554,
+        "matchedViirs": 4899,
+        "unmatchedAqua": 1677,
+        "unmatchedViirs": 15051
+      }
+    }
+  ],
+  "scientificallyValidated": false
+}

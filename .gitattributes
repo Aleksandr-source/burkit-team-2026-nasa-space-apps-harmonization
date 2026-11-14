@@ -1,0 +1,3 @@
+# Preserve exact bytes on every platform: scientific artifacts are SHA-256 audited.
+# Automatic line-ending conversion would invalidate the recorded input hashes.
+* -text

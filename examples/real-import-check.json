@@ -1,0 +1,35 @@
+{
+  "downloadDate": "2026-11-14",
+  "sources": [
+    {
+      "path": "../../work/modis-real.csv",
+      "sha256": "9a89ef80d8645bba7d2f0fde612eab04b8607b55bf83a8e856964dd2aa1d22d4",
+      "rejected": 0,
+      "acceptedRows": 9893
+    },
+    {
+      "path": "../../work/viirs-real.csv",
+      "sha256": "fe0401e40606fd90dd4cf24dff508a93539089a4aecf701e2a3c85851fe9bf40",
+      "rejected": 0,
+      "acceptedRows": 0
+    }
+  ],
+  "subset": "west=46.5, south=40.5, east=87.5, north=55.5; study bbox, not a national aggregate",
+  "result": {
+    "method": "Exploratory FRP OLS through origin; 0.25° grid / UTC day; chronological 70/30 date split",
+    "unit": "MW per occupied cell/day",
+    "scientificallyValidated": false,
+    "uniqueRecords": 3,
+    "duplicates": 0,
+    "pairedCells": 0,
+    "pairedDates": 0,
+    "calibration": null,
+    "scope": "Imported observations",
+    "limitations": [
+      "Only cells/days with detections by both sensors are paired; absence is not zero.",
+      "FRP sums mix overpasses; grid is not equal area. No cloud, view-angle, land-cover or temporal correction.",
+      "VIIRS is a comparison reference, not ground truth. Holdout metrics are internal checks.",
+      "No historical extrapolation, burned area or operational risk prediction."
+    ]
+  }
+}

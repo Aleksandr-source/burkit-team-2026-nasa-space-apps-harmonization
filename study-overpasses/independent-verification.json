@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "nearestAssignmentsVerified": 12119,
+  "rawFilesSha256Verified": 294,
+  "trainGroups": 1518,
+  "testGroups": 2514,
+  "scale": 0.4313570945466248,
+  "frozenModelHashUnchanged": true,
+  "scientificValidation": false
+}

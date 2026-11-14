@@ -1,0 +1,6 @@
+{
+  "name": "FireLens",
+  "description": "Интерактивная ГИС-платформа анализа и гармонизации спутниковых наблюдений пожаров MODIS и VIIRS (2000–2026) для NASA Space Apps Challenge 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

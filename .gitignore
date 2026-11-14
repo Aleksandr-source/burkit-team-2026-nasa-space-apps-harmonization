@@ -1,0 +1,16 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Local tools, generated Python caches and credentials
+.aistudio/
+.playwright-cli/
+__pycache__/
+*.pyc
+*.pem
+*.key

@@ -1,0 +1,678 @@
+{
+  "study": "Aqua/NOAA-20 overpass matching; train 2024, test 2025",
+  "protocolSha256": "a44468e098ddca7dfb7c05d2a5dac09d908ce0b95eb65d07e6c062132fe6487d",
+  "frozenModelSha256": "46c35c09d5f07db4c1b8d7cff68603edb012154c357e6df3ff0c96b1890f339d",
+  "scientificallyValidated": false,
+  "unit": "MW per matched Aqua-pixel / VIIRS-neighborhood observation",
+  "training": {
+    "protocolSha256": "a44468e098ddca7dfb7c05d2a5dac09d908ce0b95eb65d07e6c062132fe6487d",
+    "frozenAt": "2026-11-14T09:19:28.116Z",
+    "trainingYear": 2024,
+    "testYear": 2025,
+    "integrity": {
+      "year": 2024,
+      "rawRows": 137240,
+      "outsideCountry": 94391,
+      "rejected": 0,
+      "insideCountry": 42849,
+      "cohortExclusions": {
+        "duplicates": 0,
+        "nonVegetationOrUnknown": 15304,
+        "lowConfidence": 1876
+      },
+      "qaType0Rows": 25669,
+      "nonTargetSatelliteOrMissingTimeDayNight": 2488,
+      "eligibleRows": 23181,
+      "manifestSha256": "ff6df932dd9f074615ea37c16c7311d26bf6299820b865684fc1eb075583bb60"
+    },
+    "fits": [
+      {
+        "rules": {
+          "radiusKm": 2,
+          "maxMinutes": 60
+        },
+        "model": {
+          "scale": 0.43135709454662485,
+          "trainingMean": 50.18306324110675,
+          "trainingGroups": 1518
+        },
+        "summary": {
+          "aquaRecords": 3231,
+          "viirsRecords": 19950,
+          "matchedAqua": 1518,
+          "matchedViirs": 4520,
+          "unmatchedAqua": 1713,
+          "unmatchedViirs": 15430
+        }
+      },
+      {
+        "rules": {
+          "radiusKm": 2,
+          "maxMinutes": 30
+        },
+        "model": {
+          "scale": 0.38271081871606694,
+          "trainingMean": 46.46332992849847,
+          "trainingGroups": 979
+        },
+        "summary": {
+          "aquaRecords": 3231,
+          "viirsRecords": 19950,
+          "matchedAqua": 979,
+          "matchedViirs": 2662,
+          "unmatchedAqua": 2252,
+          "unmatchedViirs": 17288
+        }
+      },
+      {
+        "rules": {
+          "radiusKm": 2,
+          "maxMinutes": 90
+        },
+        "model": {
+          "scale": 0.46789357783432056,
+          "trainingMean": 54.16830030030033,
+          "trainingGroups": 1665
+        },
+        "summary": {
+          "aquaRecords": 3231,
+          "viirsRecords": 19950,
+          "matchedAqua": 1665,
+          "matchedViirs": 5307,
+          "unmatchedAqua": 1566,
+          "unmatchedViirs": 14643
+        }
+      },
+      {
+        "rules": {
+          "radiusKm": 1,
+          "maxMinutes": 60
+        },
+        "model": {
+          "scale": 0.327629318355277,
+          "trainingMean": 41.469283667621816,
+          "trainingGroups": 1396
+        },
+        "summary": {
+          "aquaRecords": 3231,
+          "viirsRecords": 19950,
+          "matchedAqua": 1396,
+          "matchedViirs": 3441,
+          "unmatchedAqua": 1835,
+          "unmatchedViirs": 16509
+        }
+      },
+      {
+        "rules": {
+          "radiusKm": 3,
+          "maxMinutes": 60
+        },
+        "model": {
+          "scale": 0.45839039968541867,
+          "trainingMean": 52.01678893178894,
+          "trainingGroups": 1554
+        },
+        "summary": {
+          "aquaRecords": 3231,
+          "viirsRecords": 19950,
+          "matchedAqua": 1554,
+          "matchedViirs": 4899,
+          "unmatchedAqua": 1677,
+          "unmatchedViirs": 15051
+        }
+      }
+    ],
+    "scientificallyValidated": false
+  },
+  "testIntegrity": {
+    "year": 2025,
+    "rawRows": 195288,
+    "outsideCountry": 116501,
+    "rejected": 0,
+    "insideCountry": 78787,
+    "cohortExclusions": {
+      "duplicates": 0,
+      "nonVegetationOrUnknown": 16584,
+      "lowConfidence": 3832
+    },
+    "qaType0Rows": 58371,
+    "nonTargetSatelliteOrMissingTimeDayNight": 5130,
+    "eligibleRows": 53241,
+    "manifestSha256": "0ac3ef8b411077099665ad9225753f9fbbb86c91d2d09f1c08dbdc54fe75260d"
+  },
+  "primary": {
+    "rules": {
+      "radiusKm": 2,
+      "maxMinutes": 60
+    },
+    "model": {
+      "scale": 0.43135709454662485,
+      "trainingMean": 50.18306324110675,
+      "trainingGroups": 1518
+    },
+    "summary": {
+      "aquaRecords": 8148,
+      "viirsRecords": 45093,
+      "matchedAqua": 2514,
+      "matchedViirs": 7599,
+      "unmatchedAqua": 5634,
+      "unmatchedViirs": 37494
+    },
+    "metrics": {
+      "calibrated": {
+        "n": 2514,
+        "mae": 32.77118620446705,
+        "rmse": 70.48675918504637,
+        "bias": -20.923180046780637
+      },
+      "identity": {
+        "n": 2514,
+        "mae": 40.73390612569601,
+        "rmse": 84.70771290230432,
+        "bias": 6.3416865552903685
+      },
+      "trainingMean": {
+        "n": 2514,
+        "mae": 42.42671227686229,
+        "rmse": 72.79601874045939,
+        "bias": 8.57749442646869
+      }
+    }
+  },
+  "sensitivity": [
+    {
+      "rules": {
+        "radiusKm": 2,
+        "maxMinutes": 30
+      },
+      "model": {
+        "scale": 0.38271081871606694,
+        "trainingMean": 46.46332992849847,
+        "trainingGroups": 979
+      },
+      "summary": {
+        "aquaRecords": 8148,
+        "viirsRecords": 45093,
+        "matchedAqua": 1353,
+        "matchedViirs": 3907,
+        "unmatchedAqua": 6795,
+        "unmatchedViirs": 41186
+      },
+      "metrics": {
+        "calibrated": {
+          "n": 1353,
+          "mae": 31.057782844260196,
+          "rmse": 69.1837834522029,
+          "bias": -22.50660306121068
+        },
+        "identity": {
+          "n": 1353,
+          "mae": 38.16127124907609,
+          "rmse": 75.62637542951576,
+          "bias": 7.180946045824087
+        },
+        "trainingMean": {
+          "n": 1353,
+          "mae": 39.867933597415664,
+          "rmse": 76.26891561897918,
+          "bias": 5.550853949193267
+        }
+      }
+    },
+    {
+      "rules": {
+        "radiusKm": 2,
+        "maxMinutes": 90
+      },
+      "model": {
+        "scale": 0.46789357783432056,
+        "trainingMean": 54.16830030030033,
+        "trainingGroups": 1665
+      },
+      "summary": {
+        "aquaRecords": 8148,
+        "viirsRecords": 45093,
+        "matchedAqua": 3191,
+        "matchedViirs": 10108,
+        "unmatchedAqua": 4957,
+        "unmatchedViirs": 34985
+      },
+      "metrics": {
+        "calibrated": {
+          "n": 3191,
+          "mae": 34.7540865387709,
+          "rmse": 76.86283864500487,
+          "bias": -22.25991371292048
+        },
+        "identity": {
+          "n": 3191,
+          "mae": 41.38863992478842,
+          "rmse": 87.9628552897053,
+          "bias": 1.7710028204324644
+        },
+        "trainingMean": {
+          "n": 3191,
+          "mae": 46.15866520045591,
+          "rmse": 78.0388366931669,
+          "bias": 10.777441635305019
+        }
+      }
+    },
+    {
+      "rules": {
+        "radiusKm": 1,
+        "maxMinutes": 60
+      },
+      "model": {
+        "scale": 0.327629318355277,
+        "trainingMean": 41.469283667621816,
+        "trainingGroups": 1396
+      },
+      "summary": {
+        "aquaRecords": 8148,
+        "viirsRecords": 45093,
+        "matchedAqua": 2207,
+        "matchedViirs": 5384,
+        "unmatchedAqua": 5941,
+        "unmatchedViirs": 39709
+      },
+      "metrics": {
+        "calibrated": {
+          "n": 2207,
+          "mae": 26.56629790656347,
+          "rmse": 54.53548009284877,
+          "bias": -18.63030672200205
+        },
+        "identity": {
+          "n": 2207,
+          "mae": 37.512709560489306,
+          "rmse": 77.95398834454802,
+          "bias": 13.495881286814692
+        },
+        "trainingMean": {
+          "n": 2207,
+          "mae": 33.70727348382264,
+          "rmse": 56.43635699582127,
+          "bias": 7.184693726525275
+        }
+      }
+    },
+    {
+      "rules": {
+        "radiusKm": 3,
+        "maxMinutes": 60
+      },
+      "model": {
+        "scale": 0.45839039968541867,
+        "trainingMean": 52.01678893178894,
+        "trainingGroups": 1554
+      },
+      "summary": {
+        "aquaRecords": 8148,
+        "viirsRecords": 45093,
+        "matchedAqua": 2589,
+        "matchedViirs": 8505,
+        "unmatchedAqua": 5559,
+        "unmatchedViirs": 36588
+      },
+      "metrics": {
+        "calibrated": {
+          "n": 2589,
+          "mae": 35.16684000513408,
+          "rmse": 77.36570393228398,
+          "bias": -22.733558170183024
+        },
+        "identity": {
+          "n": 2589,
+          "mae": 42.13358825801461,
+          "rmse": 88.27102966882676,
+          "bias": 2.9379837775202797
+        },
+        "trainingMean": {
+          "n": 2589,
+          "mae": 45.4588147483687,
+          "rmse": 79.64117957966101,
+          "bias": 7.556163207571091
+        }
+      }
+    }
+  ],
+  "uncertainty": {
+    "method": "500 holdout UTC-day-block bootstrap resamples, conditional on frozen model; seed 2024",
+    "days": 203,
+    "deltaRmse95": [
+      -27.09548749281187,
+      -5.356885861900068
+    ]
+  },
+  "internalImprovementSupported": true,
+  "largestErrors": [
+    {
+      "aquaId": "2025-13553",
+      "date": "2025-10-10",
+      "time": "08:47",
+      "lat": 44.4348,
+      "lng": 72.4793,
+      "aquaFrp": 917.8,
+      "viirsFrp": 1529.36,
+      "viirsCount": 5,
+      "maxKm": 1.2448774266529146,
+      "maxMinutes": 23,
+      "predicted": 395.8995413748923,
+      "trainingMean": 50.18306324110675,
+      "error": -1133.4604586251075,
+      "absoluteError": 1133.4604586251075
+    },
+    {
+      "aquaId": "2025-3339",
+      "date": "2025-04-01",
+      "time": "08:59",
+      "lat": 53.431,
+      "lng": 70.8728,
+      "aquaFrp": 48.3,
+      "viirsFrp": 717.82,
+      "viirsCount": 8,
+      "maxKm": 1.8404076001359058,
+      "maxMinutes": 34,
+      "predicted": 20.834547666601978,
+      "trainingMean": 50.18306324110675,
+      "error": -696.985452333398,
+      "absoluteError": 696.985452333398
+    },
+    {
+      "aquaId": "2025-6626",
+      "date": "2025-04-20",
+      "time": "09:53",
+      "lat": 51.614,
+      "lng": 61.3086,
+      "aquaFrp": 8.6,
+      "viirsFrp": 678.6200000000001,
+      "viirsCount": 18,
+      "maxKm": 1.8945274871872229,
+      "maxMinutes": 44,
+      "predicted": 3.709671013100974,
+      "trainingMean": 50.18306324110675,
+      "error": -674.9103289868991,
+      "absoluteError": 674.9103289868991
+    },
+    {
+      "aquaId": "2025-12623",
+      "date": "2025-09-22",
+      "time": "22:13",
+      "lat": 43.9245,
+      "lng": 79.4158,
+      "aquaFrp": 22.2,
+      "viirsFrp": 623.7199999999998,
+      "viirsCount": 50,
+      "maxKm": 1.992132524315422,
+      "maxMinutes": 55,
+      "predicted": 9.57612749893507,
+      "trainingMean": 50.18306324110675,
+      "error": -614.1438725010647,
+      "absoluteError": 614.1438725010647
+    },
+    {
+      "aquaId": "2025-13547",
+      "date": "2025-10-10",
+      "time": "08:47",
+      "lat": 44.4211,
+      "lng": 72.4864,
+      "aquaFrp": 344,
+      "viirsFrp": 749.86,
+      "viirsCount": 4,
+      "maxKm": 1.2748264437399774,
+      "maxMinutes": 23,
+      "predicted": 148.38684052403894,
+      "trainingMean": 50.18306324110675,
+      "error": -601.4731594759611,
+      "absoluteError": 601.4731594759611
+    },
+    {
+      "aquaId": "2025-11816",
+      "date": "2025-09-01",
+      "time": "09:53",
+      "lat": 49.7979,
+      "lng": 52.028,
+      "aquaFrp": 1304,
+      "viirsFrp": 30.54,
+      "viirsCount": 2,
+      "maxKm": 1.2191245555665835,
+      "maxMinutes": 46,
+      "predicted": 562.4896512887988,
+      "trainingMean": 50.18306324110675,
+      "error": 531.9496512887988,
+      "absoluteError": 531.9496512887988
+    },
+    {
+      "aquaId": "2025-13562",
+      "date": "2025-10-10",
+      "time": "08:47",
+      "lat": 44.4623,
+      "lng": 72.4653,
+      "aquaFrp": 216.6,
+      "viirsFrp": 604.03,
+      "viirsCount": 19,
+      "maxKm": 1.4377094044336893,
+      "maxMinutes": 23,
+      "predicted": 93.43194667879894,
+      "trainingMean": 50.18306324110675,
+      "error": -510.59805332120106,
+      "absoluteError": 510.59805332120106
+    },
+    {
+      "aquaId": "2025-10173",
+      "date": "2025-07-09",
+      "time": "09:22",
+      "lat": 50.1873,
+      "lng": 54.481,
+      "aquaFrp": 255.5,
+      "viirsFrp": 578.9300000000002,
+      "viirsCount": 9,
+      "maxKm": 1.329905723636305,
+      "maxMinutes": 12,
+      "predicted": 110.21173765666265,
+      "trainingMean": 50.18306324110675,
+      "error": -468.7182623433375,
+      "absoluteError": 468.7182623433375
+    },
+    {
+      "aquaId": "2025-9674",
+      "date": "2025-06-18",
+      "time": "08:50",
+      "lat": 46.1406,
+      "lng": 74.8598,
+      "aquaFrp": 53.2,
+      "viirsFrp": 490.46999999999997,
+      "viirsCount": 8,
+      "maxKm": 1.9167399199288107,
+      "maxMinutes": 12,
+      "predicted": 22.948197429880445,
+      "trainingMean": 50.18306324110675,
+      "error": -467.5218025701195,
+      "absoluteError": 467.5218025701195
+    },
+    {
+      "aquaId": "2025-11842",
+      "date": "2025-09-01",
+      "time": "11:31",
+      "lat": 49.8276,
+      "lng": 52.0951,
+      "aquaFrp": 101.3,
+      "viirsFrp": 493.51000000000005,
+      "viirsCount": 11,
+      "maxKm": 1.5672055495081425,
+      "maxMinutes": 52,
+      "predicted": 43.696473677573096,
+      "trainingMean": 50.18306324110675,
+      "error": -449.8135263224269,
+      "absoluteError": 449.8135263224269
+    },
+    {
+      "aquaId": "2025-13101",
+      "date": "2025-10-05",
+      "time": "08:51",
+      "lat": 44.8058,
+      "lng": 71.2852,
+      "aquaFrp": 132.2,
+      "viirsFrp": 474.79999999999995,
+      "viirsCount": 5,
+      "maxKm": 1.0368886767703633,
+      "maxMinutes": 33,
+      "predicted": 57.0254078990638,
+      "trainingMean": 50.18306324110675,
+      "error": -417.77459210093616,
+      "absoluteError": 417.77459210093616
+    },
+    {
+      "aquaId": "2025-11589",
+      "date": "2025-08-30",
+      "time": "10:13",
+      "lat": 50.7834,
+      "lng": 61.6411,
+      "aquaFrp": 34.5,
+      "viirsFrp": 430.21000000000004,
+      "viirsCount": 7,
+      "maxKm": 1.6647814732167352,
+      "maxMinutes": 37,
+      "predicted": 14.881819761858557,
+      "trainingMean": 50.18306324110675,
+      "error": -415.3281802381415,
+      "absoluteError": 415.3281802381415
+    },
+    {
+      "aquaId": "2025-13564",
+      "date": "2025-10-10",
+      "time": "08:47",
+      "lat": 44.4712,
+      "lng": 72.5001,
+      "aquaFrp": 191.6,
+      "viirsFrp": 492.5899999999999,
+      "viirsCount": 13,
+      "maxKm": 1.5312851137846466,
+      "maxMinutes": 23,
+      "predicted": 82.64801931513333,
+      "trainingMean": 50.18306324110675,
+      "error": -409.9419806848666,
+      "absoluteError": 409.9419806848666
+    },
+    {
+      "aquaId": "2025-3340",
+      "date": "2025-04-01",
+      "time": "08:59",
+      "lat": 53.4459,
+      "lng": 70.85,
+      "aquaFrp": 16.6,
+      "viirsFrp": 392.65,
+      "viirsCount": 14,
+      "maxKm": 1.9382306828863758,
+      "maxMinutes": 34,
+      "predicted": 7.1605277694739735,
+      "trainingMean": 50.18306324110675,
+      "error": -385.489472230526,
+      "absoluteError": 385.489472230526
+    },
+    {
+      "aquaId": "2025-3344",
+      "date": "2025-04-01",
+      "time": "08:59",
+      "lat": 53.4927,
+      "lng": 70.2222,
+      "aquaFrp": 26,
+      "viirsFrp": 375.30000000000007,
+      "viirsCount": 8,
+      "maxKm": 0.9571194400596486,
+      "maxMinutes": 34,
+      "predicted": 11.215284458212246,
+      "trainingMean": 50.18306324110675,
+      "error": -364.08471554178783,
+      "absoluteError": 364.08471554178783
+    },
+    {
+      "aquaId": "2025-13565",
+      "date": "2025-10-10",
+      "time": "08:47",
+      "lat": 44.476,
+      "lng": 72.4582,
+      "aquaFrp": 256.3,
+      "viirsFrp": 474.09,
+      "viirsCount": 8,
+      "maxKm": 1.2202686355815306,
+      "maxMinutes": 23,
+      "predicted": 110.55682333229996,
+      "trainingMean": 50.18306324110675,
+      "error": -363.5331766677,
+      "absoluteError": 363.5331766677
+    },
+    {
+      "aquaId": "2025-3914",
+      "date": "2025-04-03",
+      "time": "08:37",
+      "lat": 45.3458,
+      "lng": 74.0839,
+      "aquaFrp": 159.8,
+      "viirsFrp": 423.78999999999996,
+      "viirsCount": 5,
+      "maxKm": 1.1600490134025807,
+      "maxMinutes": 52,
+      "predicted": 68.93086370855066,
+      "trainingMean": 50.18306324110675,
+      "error": -354.8591362914493,
+      "absoluteError": 354.8591362914493
+    },
+    {
+      "aquaId": "2025-2284",
+      "date": "2025-03-27",
+      "time": "08:58",
+      "lat": 46.8686,
+      "lng": 79.5318,
+      "aquaFrp": 74.4,
+      "viirsFrp": 385.99,
+      "viirsCount": 11,
+      "maxKm": 1.7251661990171685,
+      "maxMinutes": 41,
+      "predicted": 32.09296783426889,
+      "trainingMean": 50.18306324110675,
+      "error": -353.8970321657311,
+      "absoluteError": 353.8970321657311
+    },
+    {
+      "aquaId": "2025-1776",
+      "date": "2025-03-21",
+      "time": "08:19",
+      "lat": 43.1754,
+      "lng": 75.9705,
+      "aquaFrp": 62.5,
+      "viirsFrp": 379.47999999999996,
+      "viirsCount": 9,
+      "maxKm": 1.0360153966449535,
+      "maxMinutes": 10,
+      "predicted": 26.959818409164054,
+      "trainingMean": 50.18306324110675,
+      "error": -352.52018159083593,
+      "absoluteError": 352.52018159083593
+    },
+    {
+      "aquaId": "2025-10077",
+      "date": "2025-07-06",
+      "time": "09:01",
+      "lat": 45.9426,
+      "lng": 80.7313,
+      "aquaFrp": 24.5,
+      "viirsFrp": 351.08000000000004,
+      "viirsCount": 7,
+      "maxKm": 1.0075819862738442,
+      "maxMinutes": 37,
+      "predicted": 10.568248816392309,
+      "trainingMean": 50.18306324110675,
+      "error": -340.5117511836077,
+      "absoluteError": 340.5117511836077
+    }
+  ],
+  "limitations": [
+    "2 km is an analyst-set center-distance gate, not an actual MODIS pixel footprint.",
+    "No cloud/coverage/view-angle correction; only mutually detected sites; selection bias remains.",
+    "Overpass times are taken from actual timestamps, not assumed from nominal orbit.",
+    "No burned area, confirmed wildfire cause, operational accuracy, or historical reconstruction inferred.",
+    "2024 has previously been inspected; only 2025 outcomes are held aside for this protocol. Sensitivity is reported, never used to choose a winner on 2025."
+  ]
+}

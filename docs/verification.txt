@@ -1,0 +1,9 @@
+2026-11-14 real activity calendar verification
+Application TypeScript noEmit: PASS
+Unit tests: 22 passed / 0 failed
+Production Vite build: PASS; large-main-bundle warning remains
+Independent Python: PASS; 130 calendar periods, 76422 exported records, 4032 groups, 7 source SHA-256 checks
+Data: full Aqua/NOAA-20 QA country cohort (not matched-only); 24 monthly cells + 106 seven-day cells; leap/normal year tails retained
+Browser: real calendar loaded and reproduced; monthly/week modes, raw/matched separation, clickable matrix and dropdowns, map/raw count 3033 and matched count 528 verified for July 2025; return preserves period/mode
+Missing archived detections do not imply zero activity. Actual satellite coverage unknown.
+Historical baseline, anomaly, forecast and scientific-validation claims: unavailable/not established.

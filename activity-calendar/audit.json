@@ -1,0 +1,55 @@
+{
+  "sourceFiles": [
+    {
+      "file": "eligible-2024.csv",
+      "sha256": "dd7b5d5209e507ca4416ee08501d28e6b88e9083c3235b977e256e1aed2a84e2"
+    },
+    {
+      "file": "eligible-2025.csv",
+      "sha256": "caaea4e58b1866bb944e6fe314aa2a11abe99a823af4485a02eacda5f4db70cc"
+    },
+    {
+      "file": "train-groups.csv",
+      "sha256": "2e0d2201ae9a9c424f27b90b46d80497682be40a4032abc3a0964f2669d9f4d8"
+    },
+    {
+      "file": "test-groups.csv",
+      "sha256": "8c14040d92408639f7c276a74451075c40db657a203e0d1b62db1a189b06765f"
+    },
+    {
+      "file": "frozen-model.json",
+      "sha256": "46c35c09d5f07db4c1b8d7cff68603edb012154c357e6df3ff0c96b1890f339d"
+    },
+    {
+      "file": "manifest-2024.json",
+      "sha256": "ff6df932dd9f074615ea37c16c7311d26bf6299820b865684fc1eb075583bb60"
+    },
+    {
+      "file": "manifest-2025.json",
+      "sha256": "0ac3ef8b411077099665ad9225753f9fbbb86c91d2d09f1c08dbdc54fe75260d"
+    }
+  ],
+  "summary": [
+    {
+      "year": 2024,
+      "aquaRecords": 3231,
+      "viirsRecords": 19950,
+      "matchedGroups": 1518
+    },
+    {
+      "year": 2025,
+      "aquaRecords": 8148,
+      "viirsRecords": 45093,
+      "matchedGroups": 2514
+    }
+  ],
+  "months": 24,
+  "weeks": 106,
+  "totalRecords": 76422,
+  "totalMatchedGroups": 4032,
+  "scale": 0.43135709454662485,
+  "baselineAvailable": false,
+  "forecastAvailable": false,
+  "actualCoverageKnown": false,
+  "scientificallyValidated": false
+}

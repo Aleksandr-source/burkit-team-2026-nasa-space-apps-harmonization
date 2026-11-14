@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "calendarPeriodsChecked": 130,
+  "rawRecordsChecked": 76422,
+  "matchedGroups": 4032,
+  "inputSha256Checked": 7,
+  "leapAndNormalYearTailsRetained": true,
+  "noBaselineOrForecast": true,
+  "actualSatelliteCoverageKnown": false,
+  "scientificValidation": false
+}

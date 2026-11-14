@@ -1,0 +1,17 @@
+{
+  "method": "Exploratory FRP OLS through origin; 0.25° grid / UTC day; chronological 70/30 date split",
+  "unit": "MW per occupied cell/day",
+  "scientificallyValidated": false,
+  "uniqueRecords": 111,
+  "duplicates": 0,
+  "pairedCells": 5,
+  "pairedDates": 2,
+  "calibration": null,
+  "scope": "Imported observations",
+  "limitations": [
+    "Only cells/days with detections by both sensors are paired; absence is not zero.",
+    "FRP sums mix overpasses; grid is not equal area. No cloud, view-angle, land-cover or temporal correction.",
+    "VIIRS is a comparison reference, not ground truth. Holdout metrics are internal checks.",
+    "No historical extrapolation, burned area or operational risk prediction."
+  ]
+}

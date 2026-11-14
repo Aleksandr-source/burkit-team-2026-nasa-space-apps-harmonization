@@ -1,0 +1,17 @@
+{
+  "protocolVersion": "1.0.0",
+  "lockedBefore2025Evaluation": true,
+  "createdOn": "2026-11-14",
+  "developmentYear": 2024,
+  "testYear": 2025,
+  "sources": ["MODIS_SP:Aqua", "VIIRS_NOAA20_SP"],
+  "spatialSubset": "bbox 46.5,40.5,87.3,55.5 then Natural Earth Kazakhstan polygon",
+  "cohort": "type=0; MODIS confidence >=30; VIIRS nominal/high; valid UTC and D/N; exact satellite-time-coordinate deduplication",
+  "primary": {"maxMinutes": 60, "radiusKm": 2, "sameDayNight": true},
+  "assignment": "For each VIIRS pixel select closest eligible Aqua pixel by haversine distance, then absolute UTC lag, then stable satellite/time/coordinate key. Each VIIRS record assigned once. Sum assigned VIIRS FRP per Aqua pixel. Unmatched Aqua/VIIRS are missing comparisons, not zero fire.",
+  "fit": "Nonnegative OLS through origin using all matched 2024 Aqua-pixel / VIIRS-neighborhood groups. Freeze coefficient and training-only VIIRS mean before 2025 evaluation. At least 20 training groups required.",
+  "baselines": ["identity Aqua FRP", "mean VIIRS group FRP from 2024 only"],
+  "evaluation": "2025 MAE, RMSE, bias; 500 deterministic UTC-day-block bootstrap replicates for calibrated minus identity RMSE. Seed 2024. No ground-truth validation claim.",
+  "predeclaredSensitivity": [{"maxMinutes":30,"radiusKm":2},{"maxMinutes":90,"radiusKm":2},{"maxMinutes":60,"radiusKm":1},{"maxMinutes":60,"radiusKm":3}],
+  "limitations": ["2 km is an analyst-set center-distance gate, not an actual MODIS pixel footprint.","No cloud/coverage/view-angle correction; only mutually detected sites; selection bias remains.","Overpass times are taken from actual timestamps, not assumed from nominal orbit.","No burned area, confirmed wildfire cause, operational accuracy, or historical reconstruction inferred.","2024 has previously been inspected; only 2025 outcomes are held aside for this protocol. Sensitivity is reported, never used to choose a winner on 2025."]
+}

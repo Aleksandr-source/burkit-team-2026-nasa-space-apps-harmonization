@@ -1,0 +1,14 @@
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {parseFirmsCsv,datasetFromFirms} from '../src/science/firms';
+import {analyzeObservations} from '../src/science/analysis';
+import {loadDemoDataset,parseAndValidateFireLensJson} from '../src/data/adapters/pythonJsonAdapter';
+const files=process.argv.slice(2);if(!files.length)throw Error('Pass NASA CSV paths');
+const base=loadDemoDataset();const region=base.regions.find(r=>r.id==='kazakhstan')!;
+const sources=files.map(path=>{const text=readFileSync(path,'utf8');const result=parseFirmsCsv(text,region.id);return {path,sha256:createHash('sha256').update(text).digest('hex'),...result};});
+const b=region.bounds;const rows=sources.flatMap(s=>s.observations).filter(r=>r.lng>=b.west&&r.lng<=b.east&&r.lat>=b.south&&r.lat<=b.north);
+const dataset=datasetFromFirms(base,{...region,name:'Kazakhstan study bbox',isoNumeric:undefined,boundaryType:'study_bbox'},rows,'NASA FIRMS public 24h CSV snapshot · downloaded 2026-11-14');
+const outcome=parseAndValidateFireLensJson(JSON.stringify(dataset));if(!outcome.ok)throw Error(JSON.stringify(outcome));
+mkdirSync('examples',{recursive:true});writeFileSync('examples/nasa-kazakhstan-bbox.json',JSON.stringify(dataset,null,2));
+const report={downloadDate:'2026-11-14',sources:sources.map(({observations,...s})=>({...s,acceptedRows:observations.length})),subset:'west=46.5, south=40.5, east=87.5, north=55.5; study bbox, not a national aggregate',result:analyzeObservations(rows)};
+writeFileSync('examples/real-import-check.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));

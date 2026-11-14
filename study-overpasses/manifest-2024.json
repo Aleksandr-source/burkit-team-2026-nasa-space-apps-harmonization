@@ -1,0 +1,1200 @@
+{
+  "year": 2024,
+  "bbox": [
+    46.5,
+    40.5,
+    87.3,
+    55.5
+  ],
+  "products": [
+    "MODIS_SP",
+    "VIIRS_NOAA20_SP"
+  ],
+  "downloadedAt": "2026-11-14T09:03:15.864Z",
+  "chunks": [
+    {
+      "source": "MODIS_SP",
+      "date": "2024-01-01",
+      "days": 5,
+      "file": "MODIS_SP_2024-01-01_5d.csv",
+      "rows": 19,
+      "sha256": "b36bf85641eba08effb99768dc967361cb70d59565c775b1471270c2760ce0cc"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-01-06",
+      "days": 5,
+      "file": "MODIS_SP_2024-01-06_5d.csv",
+      "rows": 18,
+      "sha256": "8d498e633f3a0a21f2a82f5df1e4c21c8997ecf5ff3026bccd6032916d813172"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-01-11",
+      "days": 5,
+      "file": "MODIS_SP_2024-01-11_5d.csv",
+      "rows": 0,
+      "sha256": "b335277b53c6ffb4476f76ef457d775527f70fe5287310a46db6301d06266520"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-01-16",
+      "days": 5,
+      "file": "MODIS_SP_2024-01-16_5d.csv",
+      "rows": 13,
+      "sha256": "3d9f35024302c1de268a0fc17b2764d73daf11bf4d920c7ffc73edfd49f48f8f"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-01-21",
+      "days": 5,
+      "file": "MODIS_SP_2024-01-21_5d.csv",
+      "rows": 5,
+      "sha256": "199eed38e954f774ea4dcc4f93dbd92762d07b4ef8cc1118297b7186307ec15e"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-01-26",
+      "days": 5,
+      "file": "MODIS_SP_2024-01-26_5d.csv",
+      "rows": 1,
+      "sha256": "12577f7c22c69b530ec55448516efc29871a726bbb3c4e38c4a42d0d035f57cb"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-01-31",
+      "days": 5,
+      "file": "MODIS_SP_2024-01-31_5d.csv",
+      "rows": 6,
+      "sha256": "d2620e2c75988bfce06247e2eaf2485229b52fd73646c7a836962c87188aca23"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-02-05",
+      "days": 5,
+      "file": "MODIS_SP_2024-02-05_5d.csv",
+      "rows": 47,
+      "sha256": "ac2c3274a310394ca843fbab0a5502892c91b382f3be94edb9711634b6225078"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-02-10",
+      "days": 5,
+      "file": "MODIS_SP_2024-02-10_5d.csv",
+      "rows": 161,
+      "sha256": "d5566ca8171fad0d5f666a941437863d5c47923b42c5cd72d4129083c831fc8a"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-02-15",
+      "days": 5,
+      "file": "MODIS_SP_2024-02-15_5d.csv",
+      "rows": 7,
+      "sha256": "b3579445eaa121669c349143254f1c38b0e8fe1c09a49e587553d013c6c7d4b7"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-02-20",
+      "days": 5,
+      "file": "MODIS_SP_2024-02-20_5d.csv",
+      "rows": 38,
+      "sha256": "e652870562676293ded4e337c95e9bf4140f66dc45e4fabac6177bef757745b3"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-02-25",
+      "days": 5,
+      "file": "MODIS_SP_2024-02-25_5d.csv",
+      "rows": 313,
+      "sha256": "58c8859b77e6a1669f70a73f55a49f347a6a45e6b9b960362b9d12bbf31bbdeb"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-03-01",
+      "days": 5,
+      "file": "MODIS_SP_2024-03-01_5d.csv",
+      "rows": 479,
+      "sha256": "74c0e0d2625ed208d3f2fea6d715c648efd0ed9b7783b75dc01f4d3e73942849"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-03-06",
+      "days": 5,
+      "file": "MODIS_SP_2024-03-06_5d.csv",
+      "rows": 435,
+      "sha256": "9e9d7711bc5e1698e75de48f3248e9bfce5707053f70b63ea5b39f58c0956877"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-03-11",
+      "days": 5,
+      "file": "MODIS_SP_2024-03-11_5d.csv",
+      "rows": 381,
+      "sha256": "ba149a20dc6259e94642417cb986cdf302c239d646d785e82eb7ad9937915188"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-03-16",
+      "days": 5,
+      "file": "MODIS_SP_2024-03-16_5d.csv",
+      "rows": 420,
+      "sha256": "372cc6d284784c1351f65f6706d1cf90925dc449099beffa1269b4dfa86f4a10"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-03-21",
+      "days": 5,
+      "file": "MODIS_SP_2024-03-21_5d.csv",
+      "rows": 51,
+      "sha256": "f17056a855a456ee12b9a8a19f765a90acaa55d257aac5f966eb0997d9bb8be3"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-03-26",
+      "days": 5,
+      "file": "MODIS_SP_2024-03-26_5d.csv",
+      "rows": 386,
+      "sha256": "3e04122b7bcf9b2fda1d66c3e37d3c362c16d4ac6f3af13d00f8f3ebdd66f109"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-03-31",
+      "days": 5,
+      "file": "MODIS_SP_2024-03-31_5d.csv",
+      "rows": 1013,
+      "sha256": "da5805237f74b4d3615494a569d57d27f054e7407d0887f2abdb5d76b9ad6704"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-04-05",
+      "days": 5,
+      "file": "MODIS_SP_2024-04-05_5d.csv",
+      "rows": 800,
+      "sha256": "5d4c282f286d16bf3ee761cdfdc486b7b99d8c1c77bb87ad7a68e0a61fd718d3"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-04-10",
+      "days": 5,
+      "file": "MODIS_SP_2024-04-10_5d.csv",
+      "rows": 714,
+      "sha256": "4700f8b964da27ac7309f655d8f0ef9759853e2faf383384dc442cb7157579aa"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-04-15",
+      "days": 5,
+      "file": "MODIS_SP_2024-04-15_5d.csv",
+      "rows": 783,
+      "sha256": "e7b7adbcc6e99a5e895b177894e1f4210cb4cae2efa27194361f9fac1a6671e1"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-04-20",
+      "days": 5,
+      "file": "MODIS_SP_2024-04-20_5d.csv",
+      "rows": 887,
+      "sha256": "1387e2c674180d5fde670dd36e6477bc867a7011a723b8ff0190da8668dbd70d"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-04-25",
+      "days": 5,
+      "file": "MODIS_SP_2024-04-25_5d.csv",
+      "rows": 706,
+      "sha256": "fb0d60adbbd73a5a6fe67b6d2c1c9b0090320331dc7af3b832cf8988af14475b"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-04-30",
+      "days": 5,
+      "file": "MODIS_SP_2024-04-30_5d.csv",
+      "rows": 191,
+      "sha256": "821349a58d3cbe33256e42292356be6cb525aa8d6066ea789f9f05180f0d57d7"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-05-05",
+      "days": 5,
+      "file": "MODIS_SP_2024-05-05_5d.csv",
+      "rows": 263,
+      "sha256": "ea83f650ee9150f054b05407b51a0ec7058b0b53a12bf4adc432959e7ebc3cdb"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-05-10",
+      "days": 5,
+      "file": "MODIS_SP_2024-05-10_5d.csv",
+      "rows": 306,
+      "sha256": "55e3e454922a2b6aca4332e826c2456460cc48331189d4cd0672defc4c51bd73"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-05-15",
+      "days": 5,
+      "file": "MODIS_SP_2024-05-15_5d.csv",
+      "rows": 128,
+      "sha256": "99c45e8b368de74d2c91c7ff553b14c0e6e4185cc56b09145a120da6cfa3ece3"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-05-20",
+      "days": 5,
+      "file": "MODIS_SP_2024-05-20_5d.csv",
+      "rows": 118,
+      "sha256": "3c8765c98c8afd837799841e6f25b003f4b404e73e2d1a5c1891e78cacd4d3e3"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-05-25",
+      "days": 5,
+      "file": "MODIS_SP_2024-05-25_5d.csv",
+      "rows": 196,
+      "sha256": "e4088bc20a8bb8b83caf8ef447d8d7b69450dbeecdfd9307eea74b73c8abfede"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-05-30",
+      "days": 5,
+      "file": "MODIS_SP_2024-05-30_5d.csv",
+      "rows": 278,
+      "sha256": "58be4714d820bae5ea0b6f3a89f9ac8cb41f4e177b46f9051110a8295dd46955"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-06-04",
+      "days": 5,
+      "file": "MODIS_SP_2024-06-04_5d.csv",
+      "rows": 333,
+      "sha256": "10ede8890aabb0227615777095fa792e44fbb240d12ab8fd8ab0805ddb1e8ea0"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-06-09",
+      "days": 5,
+      "file": "MODIS_SP_2024-06-09_5d.csv",
+      "rows": 323,
+      "sha256": "be57316445eda10dfdae1de4d28324533bd9a53d1b5ee3ab2ed87643a216d191"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-06-14",
+      "days": 5,
+      "file": "MODIS_SP_2024-06-14_5d.csv",
+      "rows": 397,
+      "sha256": "101cac565147dcd39a2c5393f4ec96074dc2caeb3ef4214add6718e4f2cd6a5e"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-06-19",
+      "days": 5,
+      "file": "MODIS_SP_2024-06-19_5d.csv",
+      "rows": 319,
+      "sha256": "2c9b7941f0ce61bd03b5f2a13c88739213102da2556f8ab856e03c707cbe5f0e"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-06-24",
+      "days": 5,
+      "file": "MODIS_SP_2024-06-24_5d.csv",
+      "rows": 349,
+      "sha256": "77f66ab9f957a6a49128670cdfa26ee3c123eedf54e19ec23b2377e33a7285d1"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-06-29",
+      "days": 5,
+      "file": "MODIS_SP_2024-06-29_5d.csv",
+      "rows": 316,
+      "sha256": "62937fcadc70310ddf13532d7587ea8059e856b209c95e3cda69ad71f786e1da"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-07-04",
+      "days": 5,
+      "file": "MODIS_SP_2024-07-04_5d.csv",
+      "rows": 547,
+      "sha256": "58250d18873d6633f3c8a1535a9f50a781acf30c850f5cab7b495870d97b40f4"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-07-09",
+      "days": 5,
+      "file": "MODIS_SP_2024-07-09_5d.csv",
+      "rows": 505,
+      "sha256": "635d9ff187dfeb25dc8c508171ce9d6b1cd453cada496df10b54600d30a9217b"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-07-14",
+      "days": 5,
+      "file": "MODIS_SP_2024-07-14_5d.csv",
+      "rows": 331,
+      "sha256": "8e0b1deb95ac139d5f6d09697aabab45183fc74c5ff6d61f307d7942fd9bf713"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-07-19",
+      "days": 5,
+      "file": "MODIS_SP_2024-07-19_5d.csv",
+      "rows": 291,
+      "sha256": "9fcee24cd4143b6f30846ffd43035b94c483ff940023b0898b609b6fa0f4f134"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-07-24",
+      "days": 5,
+      "file": "MODIS_SP_2024-07-24_5d.csv",
+      "rows": 255,
+      "sha256": "e9bfc92b9bb660cbca0b00e8271bf25f7424f9987da574a08c599e95f9c0cb96"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-07-29",
+      "days": 5,
+      "file": "MODIS_SP_2024-07-29_5d.csv",
+      "rows": 245,
+      "sha256": "e16fc9aabfab5751320c7cb0d030d67ff836aefae03089209446656ef83729f5"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-08-03",
+      "days": 5,
+      "file": "MODIS_SP_2024-08-03_5d.csv",
+      "rows": 212,
+      "sha256": "cfa4790e6a9b09c6491fb91c8acc7388802a8e5434c998561a5ccfd606394056"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-08-08",
+      "days": 5,
+      "file": "MODIS_SP_2024-08-08_5d.csv",
+      "rows": 186,
+      "sha256": "16907bf1a57c0729ae5e29a422bea3d7a0545e086ec3a4e433fa693de18e9da2"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-08-13",
+      "days": 5,
+      "file": "MODIS_SP_2024-08-13_5d.csv",
+      "rows": 165,
+      "sha256": "81bf5bf185f59a901591003504e728daa0f50dc655ffa9b02c817cfdefa8f945"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-08-18",
+      "days": 5,
+      "file": "MODIS_SP_2024-08-18_5d.csv",
+      "rows": 173,
+      "sha256": "e3fdfa8ceacdb5039883777e4193bf176694f1e78cb72dc1092f3682dbfdbc80"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-08-23",
+      "days": 5,
+      "file": "MODIS_SP_2024-08-23_5d.csv",
+      "rows": 200,
+      "sha256": "43d5e74c53570643cf21deb95df17a2dc8ed0f7b788358804c6f6b46e46c39f8"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-08-28",
+      "days": 5,
+      "file": "MODIS_SP_2024-08-28_5d.csv",
+      "rows": 256,
+      "sha256": "168615f5bd0ccfed641badc21a3b20b617be2a6070365f9f4b3a4c6fd6ac6e40"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-09-02",
+      "days": 5,
+      "file": "MODIS_SP_2024-09-02_5d.csv",
+      "rows": 153,
+      "sha256": "67e00525bbfa346563daf9a3eba2b7df695c4eef377fa04c43ac791fc2339412"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-09-07",
+      "days": 5,
+      "file": "MODIS_SP_2024-09-07_5d.csv",
+      "rows": 240,
+      "sha256": "3b33286bcb53dae02dd73b17cac39f60833193ab53c2e108161d4372938be7de"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-09-12",
+      "days": 5,
+      "file": "MODIS_SP_2024-09-12_5d.csv",
+      "rows": 360,
+      "sha256": "c84d1f773666e562f195c47dded98af034a58a014c63b040b1cedd385080fbe8"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-09-17",
+      "days": 5,
+      "file": "MODIS_SP_2024-09-17_5d.csv",
+      "rows": 351,
+      "sha256": "3909dc7d36c7c5e0aa61d0746316825aeaa670bc5d56779a56cf882efd9804ef"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-09-22",
+      "days": 5,
+      "file": "MODIS_SP_2024-09-22_5d.csv",
+      "rows": 354,
+      "sha256": "4dec9463f7e762bdca6133985372e2cbca5f9579e69af5c9e4174c6b902541ca"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-09-27",
+      "days": 5,
+      "file": "MODIS_SP_2024-09-27_5d.csv",
+      "rows": 782,
+      "sha256": "ed0d171043569e88dd2fd246ccf887a76cecfa626a057d6c7c9b287f19695564"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-10-02",
+      "days": 5,
+      "file": "MODIS_SP_2024-10-02_5d.csv",
+      "rows": 753,
+      "sha256": "77551ac87ec584d5e2850c695c8eab2b8d2c39adb83f6cea9c85155f86366ede"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-10-07",
+      "days": 5,
+      "file": "MODIS_SP_2024-10-07_5d.csv",
+      "rows": 546,
+      "sha256": "913e05824d74ffd6994ff45e6772e0ef45be73a60d5c8fdd9e0afa78404ecbe0"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-10-12",
+      "days": 5,
+      "file": "MODIS_SP_2024-10-12_5d.csv",
+      "rows": 195,
+      "sha256": "bedfbba563ebbf8a88de06540ad13a9aae087ba8613a8d4604b1b001397c8182"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-10-17",
+      "days": 5,
+      "file": "MODIS_SP_2024-10-17_5d.csv",
+      "rows": 323,
+      "sha256": "b2edbd2acfbf9747516dff140a5e38edf1511714605d467d77d415bf9b240552"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-10-22",
+      "days": 5,
+      "file": "MODIS_SP_2024-10-22_5d.csv",
+      "rows": 96,
+      "sha256": "6ddefa067b7ea16bb6471d53bccc033257133a228119fa07ec248e2966212781"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-10-27",
+      "days": 5,
+      "file": "MODIS_SP_2024-10-27_5d.csv",
+      "rows": 37,
+      "sha256": "007612717d8c88f9e94552b3a4776dc0ee94253051d732ecea7e493a128418a8"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-11-01",
+      "days": 5,
+      "file": "MODIS_SP_2024-11-01_5d.csv",
+      "rows": 135,
+      "sha256": "787b0a21974979ef19845fdca4947ccafeaf7b2c724ba2f5b6e496057f0eb747"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-11-06",
+      "days": 5,
+      "file": "MODIS_SP_2024-11-06_5d.csv",
+      "rows": 34,
+      "sha256": "1dc10a06655cd26a3b88604aa69ec89af52dbe05a1be54f1c3fe2e129ba89ff1"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-11-11",
+      "days": 5,
+      "file": "MODIS_SP_2024-11-11_5d.csv",
+      "rows": 13,
+      "sha256": "c6888baa6d00eb34bdbfd2fded34e734bc6d6d47a2e61bd3b51726a72352612b"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-11-16",
+      "days": 5,
+      "file": "MODIS_SP_2024-11-16_5d.csv",
+      "rows": 41,
+      "sha256": "2526d7d4fa054e17bafc51e7334552cb55f2626e2d44cbdebd9631bd97a710fb"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-11-21",
+      "days": 5,
+      "file": "MODIS_SP_2024-11-21_5d.csv",
+      "rows": 62,
+      "sha256": "18dc42717d47438c646e50ae43719fc2ba6c115b33cbdab77e75199837375203"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-11-26",
+      "days": 5,
+      "file": "MODIS_SP_2024-11-26_5d.csv",
+      "rows": 55,
+      "sha256": "7b419f4672a7c1993e53fe1c0e6fb0fd9e5db3004a8edbc88c2118e19be710f3"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-12-01",
+      "days": 5,
+      "file": "MODIS_SP_2024-12-01_5d.csv",
+      "rows": 4,
+      "sha256": "fa2415b9419343954056dba6423d6ef0c6afb5a5418164f1f540dc913a3d5d6e"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-12-06",
+      "days": 5,
+      "file": "MODIS_SP_2024-12-06_5d.csv",
+      "rows": 2,
+      "sha256": "c1d1eba4c0982aec22bdeb54035ecfe19cc8dfaba77c082ea519153f2cc1cdb0"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-12-11",
+      "days": 5,
+      "file": "MODIS_SP_2024-12-11_5d.csv",
+      "rows": 5,
+      "sha256": "70fd3b318a9c0f79b2e9a8f900d595acf0d31a3816e45dac657350b5f1499582"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-12-16",
+      "days": 5,
+      "file": "MODIS_SP_2024-12-16_5d.csv",
+      "rows": 9,
+      "sha256": "4b837feb6c996dcb3b02e5537f13c0f4af9bdc6a81274d4799c72e7b6aa367fb"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-12-21",
+      "days": 5,
+      "file": "MODIS_SP_2024-12-21_5d.csv",
+      "rows": 8,
+      "sha256": "998c1d904cdf1f0a9698853ffc3ab3240cc41fdeec84c118f279c8381648d28a"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-12-26",
+      "days": 5,
+      "file": "MODIS_SP_2024-12-26_5d.csv",
+      "rows": 1,
+      "sha256": "0d437e7d6e60e2db0644a3007fce74d6e90621146407ef229c2f82e935d8655d"
+    },
+    {
+      "source": "MODIS_SP",
+      "date": "2024-12-31",
+      "days": 1,
+      "file": "MODIS_SP_2024-12-31_1d.csv",
+      "rows": 0,
+      "sha256": "b335277b53c6ffb4476f76ef457d775527f70fe5287310a46db6301d06266520"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-01-01",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-01-01_5d.csv",
+      "rows": 166,
+      "sha256": "a83f715d2c37be592d0f835578487479bcd2a69b21292a0d3cadcc5d19324b25"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-01-06",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-01-06_5d.csv",
+      "rows": 166,
+      "sha256": "f44ee42c2d4d2656fdb6e72cba837602079f61fc557062cd3106d8868d74f003"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-01-11",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-01-11_5d.csv",
+      "rows": 135,
+      "sha256": "b4b4d12cc232af250b4ae86de725568a1a04af64d2aebe847cbd3a6c0989c825"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-01-16",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-01-16_5d.csv",
+      "rows": 158,
+      "sha256": "2c065755d53be9a6b60d26b180661b11898d5569455cd1a1c4e8ac2cc6af687b"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-01-21",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-01-21_5d.csv",
+      "rows": 163,
+      "sha256": "8bf3ae275824e84640646d41fefd34212e442a21fc22c236da457c0ec9c264ca"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-01-26",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-01-26_5d.csv",
+      "rows": 80,
+      "sha256": "aaf6e4cb8a19a79459cda790d9f4d14ab4c478feed72a3fcb0c184d3854c4be0"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-01-31",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-01-31_5d.csv",
+      "rows": 35,
+      "sha256": "667b0ed3f8c1c48f7fd3fda179e2b69cd7af2d63534d83a466b988769f89ae4c"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-02-05",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-02-05_5d.csv",
+      "rows": 246,
+      "sha256": "d8aaf4507dc688ba42abc523a88ed887ccbc8ea73e3ba090ef761f06aa612369"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-02-10",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-02-10_5d.csv",
+      "rows": 508,
+      "sha256": "8c7dabe68c0c3c8305e00d8139d3826e2b3ee179a60a366e2e29d75cee4c1e33"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-02-15",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-02-15_5d.csv",
+      "rows": 173,
+      "sha256": "9b0f73ba7a540692dd4f63e8462a69bd9dedd427e76112ee3ca20f77de779d04"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-02-20",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-02-20_5d.csv",
+      "rows": 253,
+      "sha256": "420187a6c03606864f1619e5f11f6b9ad1f239ff86d59d7617fdc43c651ea60d"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-02-25",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-02-25_5d.csv",
+      "rows": 1237,
+      "sha256": "1e1ab5d2f113ec6520df79012f3002c3fe8fe819cf53c5499555e1f7ca45f941"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-03-01",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-03-01_5d.csv",
+      "rows": 1654,
+      "sha256": "3a117af846b137d0ee23177ab99a46ee2435a05984267cc8bfa6ecf180222f6c"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-03-06",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-03-06_5d.csv",
+      "rows": 2068,
+      "sha256": "dfed3b7828ed66c1e70bff09d2352f6f6e14187f3e1f1b2e622354b9a1cd9721"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-03-11",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-03-11_5d.csv",
+      "rows": 1839,
+      "sha256": "0772274c2203c8307ecb6fe3feca8c0c155d570270d8b1e7492eee248cbb349e"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-03-16",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-03-16_5d.csv",
+      "rows": 1451,
+      "sha256": "a044defbca1a8535acd5ac632c6853547aff35e46edbdd7b20b79dfba78d4985"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-03-21",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-03-21_5d.csv",
+      "rows": 828,
+      "sha256": "0d74a0779d5c70668446c34c34c31dafdf2bf4deb4f0a3ea67b4a3b76819480b"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-03-26",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-03-26_5d.csv",
+      "rows": 1749,
+      "sha256": "bce33a055cafb2a049c62d5c257883d7f4e9345f21d5b317d1da7edf8f905522"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-03-31",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-03-31_5d.csv",
+      "rows": 3617,
+      "sha256": "4175b465f910e5cdf3107a101ad55a2f344ff758de85d9b5881c072492cd38fc"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-04-05",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-04-05_5d.csv",
+      "rows": 3535,
+      "sha256": "4ee9141f83b608a39cc6ceb78cbf1a2583539695b501df96d1f560e15c926df7"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-04-10",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-04-10_5d.csv",
+      "rows": 3046,
+      "sha256": "3df9cfe35822dcfa22d23a23c52318fcb16cfef9b13e2a4db5e7551cf519ceab"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-04-15",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-04-15_5d.csv",
+      "rows": 3903,
+      "sha256": "068a108e04bf205bc1d3da4a52b3ebca5919598826f22dea5b2dacc3fa4850f7"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-04-20",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-04-20_5d.csv",
+      "rows": 4950,
+      "sha256": "8b04d6011f0597c95b4f1e0de55b74e3899158a85e3a583108facbd8283fec43"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-04-25",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-04-25_5d.csv",
+      "rows": 3122,
+      "sha256": "37f2d78aa2c008afdb4dec269187106c47558af1b2e13ee1568adb28c9e504b6"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-04-30",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-04-30_5d.csv",
+      "rows": 1515,
+      "sha256": "e74a08c1b14f3617cd4a0120778a66f7cef47865b10bbc25377432adc3734f59"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-05-05",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-05-05_5d.csv",
+      "rows": 2167,
+      "sha256": "6d40a53ae0812bd39210c3e99d26cf5f8042e27d2547f0c2b1a665707e445deb"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-05-10",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-05-10_5d.csv",
+      "rows": 2200,
+      "sha256": "efb99ef57a97d9284f862b92dd26361c8e01d5cf511a6ed4967d0a38b3b75e30"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-05-15",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-05-15_5d.csv",
+      "rows": 1562,
+      "sha256": "9012ad9ccd51a297ecaf49553bc909a505ab5b8e2a6ed84fcc9124b9b7d3b87a"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-05-20",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-05-20_5d.csv",
+      "rows": 1628,
+      "sha256": "f08171bc48ee4376db4f2bcd9979d11990b2fbc7969c13e05b28ae161528d3ab"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-05-25",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-05-25_5d.csv",
+      "rows": 1970,
+      "sha256": "40f04289685a32c4b6acf9922ecccbe1e59eb820637b7a844e8aa0f7ae363bf5"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-05-30",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-05-30_5d.csv",
+      "rows": 2038,
+      "sha256": "4a19c0097333f5fd511588e143b40434e03fb6de5e3b90abec5bf0be2db27edc"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-06-04",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-06-04_5d.csv",
+      "rows": 2247,
+      "sha256": "1751eb0f34b71f6b458ab8c78800b78ade0dd9e158d8f7846673d1a5acef92b2"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-06-09",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-06-09_5d.csv",
+      "rows": 2435,
+      "sha256": "0b91ca6bd811659426d1951e5e7bda057abc5a663a0b051af6679886595c1007"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-06-14",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-06-14_5d.csv",
+      "rows": 2494,
+      "sha256": "d76971e74328def9e44fa84fd460bd046628122ef77fd84e03f9c2cffa6caee0"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-06-19",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-06-19_5d.csv",
+      "rows": 2424,
+      "sha256": "74b21eedf48d59b42df019c02449e8d321875701ea577089b07c7a810ebd2129"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-06-24",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-06-24_5d.csv",
+      "rows": 1992,
+      "sha256": "473266cb711855a2402a7f437bf8a86e9e6407736c3cfec157591cd8337583d1"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-06-29",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-06-29_5d.csv",
+      "rows": 2196,
+      "sha256": "e73425dde72c6fa647b354e230899185c98219dd1f68fe74c6830cb746fbadb1"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-07-04",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-07-04_5d.csv",
+      "rows": 3125,
+      "sha256": "80e24ff162eba7182c48530f874dd13ae57a2270c261846aec89e016e14fa45d"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-07-09",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-07-09_5d.csv",
+      "rows": 3012,
+      "sha256": "d102f8d05cba1779afceefb3248f772ab033fef801350e07563bbfdf007676d4"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-07-14",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-07-14_5d.csv",
+      "rows": 2399,
+      "sha256": "d1e166bb7595cbae2261457d48611ca5b52ae74dd9ddb5f498f0561017803a86"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-07-19",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-07-19_5d.csv",
+      "rows": 2328,
+      "sha256": "a19e04a57250cdbc96376e3168b213e86e6926188741d54bd50122a387d37a81"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-07-24",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-07-24_5d.csv",
+      "rows": 2213,
+      "sha256": "6d4c8cd9ba151bb9198876a64a2c4d0d319ae2b02a849fa25e63df0d68b1cd46"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-07-29",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-07-29_5d.csv",
+      "rows": 2018,
+      "sha256": "43277e2f6dca142bd687825c4f8102c18e465b5116186fa6bb08354befa5e1d8"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-08-03",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-08-03_5d.csv",
+      "rows": 2053,
+      "sha256": "b2ed3fb9c067bccde4ceebf99b3d84a64844409cec3eefbe7f46083444629884"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-08-08",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-08-08_5d.csv",
+      "rows": 1583,
+      "sha256": "80e936c71463daf7a241162703be87e00dbc76c18bb176b2837b0eb8ced6c4ef"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-08-13",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-08-13_5d.csv",
+      "rows": 1727,
+      "sha256": "d22e2c6101ee02642429721767371771bb61231ae606da63e36a8d8425f13a82"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-08-18",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-08-18_5d.csv",
+      "rows": 2022,
+      "sha256": "fbe1dbeead2c75218f6b379c417a19a7ab5760dfc9e97617ce7ac777eb38e32c"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-08-23",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-08-23_5d.csv",
+      "rows": 2243,
+      "sha256": "ef02fc8e9fb72b7ebeee38fffee2ddfed013c88f2202e7b54fe9d10d1ed8d615"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-08-28",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-08-28_5d.csv",
+      "rows": 2367,
+      "sha256": "6ca358e58914f07fb2460936dbeaafae8c64bd6db60ac599b6d0e31d7c405663"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-09-02",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-09-02_5d.csv",
+      "rows": 1815,
+      "sha256": "96b2e0f9567d9fd497a007ff8fbdfa837b2a062f69512e09158ec1bfbfda785d"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-09-07",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-09-07_5d.csv",
+      "rows": 2143,
+      "sha256": "3d6ee1080cfef8b1d4032f9868483732ee9a3029e911c6a8331749112db52376"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-09-12",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-09-12_5d.csv",
+      "rows": 2697,
+      "sha256": "8202f54254daca0af6d971412e16ce4ee314593bade3671ce739b1bbc15adb8e"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-09-17",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-09-17_5d.csv",
+      "rows": 2329,
+      "sha256": "f96726ac82d8cd9ee43b4b3a88d4b83ce391468e32dc0c671461c70ababdd35b"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-09-22",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-09-22_5d.csv",
+      "rows": 2215,
+      "sha256": "2a11810cde1a8dff07f3cd2ab1a8783c59cd04a642319d06cf3e45f00f1c3207"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-09-27",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-09-27_5d.csv",
+      "rows": 3526,
+      "sha256": "6a62711431ca8ceff6953db3660d56b573ac1d4775aa579fae0d99209dae6c00"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-10-02",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-10-02_5d.csv",
+      "rows": 3717,
+      "sha256": "27c0adc5c28652eb92f79104f4933077b4dae2daab6175fde79e10e7a8564537"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-10-07",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-10-07_5d.csv",
+      "rows": 3250,
+      "sha256": "70b4c873dcc8c866be17eb3ac0741993b2679a95d3ef6c85d74c179ad59ccb99"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-10-12",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-10-12_5d.csv",
+      "rows": 1274,
+      "sha256": "c9bef81f4ad2a59aabe9cc20fa7b3d46a0c944539f6584043d8cb7dde5ebbee3"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-10-17",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-10-17_5d.csv",
+      "rows": 1380,
+      "sha256": "970275f248b52a3d9bf743802a3a69e07ea43ec64c450345c2926c054c4fd407"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-10-22",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-10-22_5d.csv",
+      "rows": 556,
+      "sha256": "75df5f517a0f60282fa2c440c565548d1ce4a8e4ca0a7288c3674c5be40b4701"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-10-27",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-10-27_5d.csv",
+      "rows": 429,
+      "sha256": "c600a02d5c0a1dcdbe2a2d0d555d9c41a6d7afe92143927a1a79e1923e3c3304"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-11-01",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-11-01_5d.csv",
+      "rows": 685,
+      "sha256": "9b64c11ff3de54432d0e1586ff40168876a8d4300bfde073e5ed39280740e295"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-11-06",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-11-06_5d.csv",
+      "rows": 287,
+      "sha256": "04c2573e8751c054fdacf9f27fd161a10c145bae4875c140d77d866e9e7a0563"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-11-11",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-11-11_5d.csv",
+      "rows": 258,
+      "sha256": "d4c37fc49258f4f41628a3251746a353d335c8d78801c62876e94a6df8329451"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-11-16",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-11-16_5d.csv",
+      "rows": 508,
+      "sha256": "47c198d6c5dfff66b500822191cb3ab6871dd7da92b6ac8a29ddff3f805e08f9"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-11-21",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-11-21_5d.csv",
+      "rows": 760,
+      "sha256": "2b608896f122b3dafff2f3830ea6bce6a470125eb3fa978ad2b39d971f743c9b"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-11-26",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-11-26_5d.csv",
+      "rows": 526,
+      "sha256": "64527f9cb7ddedfaef700f5d77d5e43170a0802d6cd6ec6b4afc0eba0d10623b"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-12-01",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-12-01_5d.csv",
+      "rows": 94,
+      "sha256": "8091879760d3a162d3537fed888bdf8a6a445c659f70a6b2d0fdb5760d30619d"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-12-06",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-12-06_5d.csv",
+      "rows": 173,
+      "sha256": "cb49e3f290f02e7421780fa4eb96225b2702d6fda225f761b3f190783994e45d"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-12-11",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-12-11_5d.csv",
+      "rows": 89,
+      "sha256": "c2ae11cdd2548836371f031b8bdc2a29b1ff89175304396bdb9d73b3e04b67f1"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-12-16",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-12-16_5d.csv",
+      "rows": 136,
+      "sha256": "871e74932d775e4bd5629774d9d292edf7a8dfbe523c09eb5b397b57d2a608b5"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-12-21",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-12-21_5d.csv",
+      "rows": 112,
+      "sha256": "e8ec2e5f006a8778d84f4806fdb5cc565d629346733a1ea47960f78ed0507e00"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-12-26",
+      "days": 5,
+      "file": "VIIRS_NOAA20_SP_2024-12-26_5d.csv",
+      "rows": 100,
+      "sha256": "82774d942229fa04450391daf808c5cbb44b641e7e6e4f638fc19a66d29f6fd8"
+    },
+    {
+      "source": "VIIRS_NOAA20_SP",
+      "date": "2024-12-31",
+      "days": 1,
+      "file": "VIIRS_NOAA20_SP_2024-12-31_1d.csv",
+      "rows": 16,
+      "sha256": "9fe9756d96aeac9b6357e320488705ac257fe6e162b10f87e286bf1ee0e8c790"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "method": "Exploratory FRP OLS through origin; 0.25° grid / UTC day; chronological 70/30 date split",
+  "unit": "MW per occupied cell/day",
+  "scientificallyValidated": false,
+  "uniqueRecords": 25669,
+  "duplicates": 0,
+  "pairedCells": 1465,
+  "pairedDates": 245,
+  "calibration": {
+    "scale": 0.18493590434668394,
+    "mae": 83.75933477630191,
+    "rmse": 361.34803844231607,
+    "bias": -77.3603838362369,
+    "rawRmse": 433.54906998121123,
+    "trainSamples": 1020,
+    "holdoutSamples": 445,
+    "trainEnd": "2024-08-24",
+    "holdoutStart": "2024-08-25"
+  },
+  "scope": "Imported observations",
+  "limitations": [
+    "Only cells/days with detections by both sensors are paired; absence is not zero.",
+    "FRP sums mix overpasses; grid is not equal area. No cloud, view-angle, land-cover or temporal correction.",
+    "VIIRS is a comparison reference, not ground truth. Holdout metrics are internal checks.",
+    "No historical extrapolation, burned area or operational risk prediction."
+  ],
+  "metrics": {
+    "calibrated": {
+      "n": 445,
+      "mae": 83.75933477630191,
+      "rmse": 361.34803844231607,
+      "bias": -77.3603838362369
+    },
+    "identity": {
+      "n": 445,
+      "mae": 106.3783146067416,
+      "rmse": 433.54906998121123,
+      "bias": 48.51188764044938
+    },
+    "trainingMean": {
+      "n": 445,
+      "mae": 128.97647025776607,
+      "rmse": 488.763352278696,
+      "bias": -8.430579753249612
+    }
+  },
+  "trainingViirsMean": 97.48989215686277,
+  "occupiedBins": 7670,
+  "unpairedBins": 6205,
+  "cohort": "type=0 presumed vegetation; MODIS confidence>=30; VIIRS nominal/high; NOAA-20 only",
+  "integrity": {
+    "chunks": 148,
+    "requestedDaysBySource": {
+      "MODIS_SP": 366,
+      "VIIRS_NOAA20_SP": 366
+    },
+    "rawRows": 137240,
+    "rejected": 0,
+    "outsideCountry": 94391,
+    "datesOutsideWindow": 0,
+    "typeCounts": {
+      "MODIS:type2": 1233,
+      "MODIS:type0": 6096,
+      "VIIRS:type2": 13401,
+      "VIIRS:type0": 21449,
+      "VIIRS:type3": 670
+    }
+  },
+  "exclusions": {
+    "duplicates": 0,
+    "nonVegetationOrUnknown": 15304,
+    "lowConfidence": 1876
+  },
+  "sensorCounts": {
+    "MODIS": 5719,
+    "VIIRS": 19950
+  },
+  "sensitivity": [
+    {
+      "name": "Primary: type0, MODIS>=30, VIIRS nominal/high",
+      "rows": 25669,
+      "excluded": {
+        "duplicates": 0,
+        "nonVegetationOrUnknown": 15304,
+        "lowConfidence": 1876
+      },
+      "pairedCells": 1465,
+      "pairedDates": 245,
+      "calibration": {
+        "scale": 0.1849359043466839,
+        "mae": 83.75933477630191,
+        "rmse": 361.34803844231607,
+        "bias": -77.36038383623692,
+        "rawRmse": 433.54906998121123,
+        "trainSamples": 1020,
+        "holdoutSamples": 445,
+        "trainEnd": "2024-08-24",
+        "holdoutStart": "2024-08-25"
+      },
+      "metrics": {
+        "calibrated": {
+          "n": 445,
+          "mae": 83.75933477630191,
+          "rmse": 361.34803844231607,
+          "bias": -77.36038383623692
+        },
+        "identity": {
+          "n": 445,
+          "mae": 106.3783146067416,
+          "rmse": 433.54906998121123,
+          "bias": 48.51188764044938
+        },
+        "trainingMean": {
+          "n": 445,
+          "mae": 128.97647025776607,
+          "rmse": 488.763352278696,
+          "bias": -8.430579753249612
+        }
+      }
+    },
+    {
+      "name": "Type0, include low confidence",
+      "rows": 27545,
+      "excluded": {
+        "duplicates": 0,
+        "nonVegetationOrUnknown": 15304,
+        "lowConfidence": 0
+      },
+      "pairedCells": 1538,
+      "pairedDates": 248,
+      "calibration": {
+        "scale": 0.21092005016377674,
+        "mae": 95.88405369847197,
+        "rmse": 484.63544165845684,
+        "bias": -88.10699502024191,
+        "rawRmse": 328.59523619018245,
+        "trainSamples": 1073,
+        "holdoutSamples": 465,
+        "trainEnd": "2024-08-24",
+        "holdoutStart": "2024-08-25"
+      },
+      "metrics": {
+        "calibrated": {
+          "n": 465,
+          "mae": 95.88405369847197,
+          "rmse": 484.63544165845684,
+          "bias": -88.10699502024191
+        },
+        "identity": {
+          "n": 465,
+          "mae": 97.81608602150541,
+          "rmse": 328.59523619018245,
+          "bias": 30.14215053763441
+        },
+        "trainingMean": {
+          "n": 465,
+          "mae": 149.75327132249032,
+          "rmse": 632.2632018329734,
+          "bias": -10.12522081592165
+        }
+      }
+    },
+    {
+      "name": "All types, confidence filtered",
+      "rows": 40623,
+      "excluded": {
+        "duplicates": 0,
+        "nonVegetationOrUnknown": 0,
+        "lowConfidence": 2226
+      },
+      "pairedCells": 1962,
+      "pairedDates": 272,
+      "calibration": {
+        "scale": 0.1878264582868054,
+        "mae": 68.07210014285114,
+        "rmse": 305.85157037567353,
+        "bias": -63.29853240874133,
+        "rawRmse": 368.2766274507446,
+        "trainSamples": 1343,
+        "holdoutSamples": 619,
+        "trainEnd": "2024-08-24",
+        "holdoutStart": "2024-08-25"
+      },
+      "metrics": {
+        "calibrated": {
+          "n": 619,
+          "mae": 68.07210014285114,
+          "rmse": 305.85157037567353,
+          "bias": -63.29853240874133
+        },
+        "identity": {
+          "n": 619,
+          "mae": 82.23061389337649,
+          "rmse": 368.2766274507446,
+          "bias": 36.88169628432952
+        },
+        "trainingMean": {
+          "n": 619,
+          "mae": 102.31686220779798,
+          "rmse": 416.40134148375034,
+          "bias": -4.411484572070639
+        }
+      }
+    }
+  ],
+  "uncertainty": {
+    "method": "500 deterministic resamples of entire holdout UTC-day blocks",
+    "seed": 2024,
+    "holdoutDays": 74,
+    "deltaRmse95": [
+      -142.56926048655453,
+      42.635975029772226
+    ],
+    "deltaDefinition": "calibrated RMSE minus identity RMSE; negative is lower internal error",
+    "warning": "Conditional on fitted model and observed holdout; no training uncertainty or field validation"
+  }
+}
